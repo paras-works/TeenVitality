@@ -1,0 +1,60 @@
+/* Global styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  /* Body styles */
+  body {
+    background-color: #E6E6FA; /* Light lavender background */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Quiz container styles */
+  .quiz {
+    width: 80%; /* Adjust quiz container width as needed */
+    background-color: rgba(224, 251, 222, 0.8); /* Semi-transparent light green background */
+    padding: 2rem;
+    border-radius: 10px; /* Rounded corners for the quiz box */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  }
+  
+  /* Question box styles */
+  #box {
+    background-color: #fff; /* White background for the question box */
+  }
+  
+  /* Row styles (individual question and answer choices) */
+  .row {
+    width: 100%;
+    margin: 0.64rem 0; /* Adjust margin as needed */
+    font-size: 1.2rem; /* Adjust font size for readability */
+    padding: 10px 15px; /* Add some padding for better spacing */
+    display: flex; /* Allow horizontal alignment of radio button and label */
+    align-items: center; /* Align radio button and label vertically */
+  }
+  
+  /* Label styles */
+  label {
+    font-size: 1rem;
+    margin-left: 10px; /* Adjust spacing between radio button and label */
+  }
+  
+  /* Button styles */
+  .btn {
+    width: 100%;
+    padding: 10px 20px; /* Increase padding for better button size */
+    margin-top: 2rem; /* Adjust margin for spacing */
+    color: white;
+    background-color: #251aba;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer; /* Indicate clickable behavior */
+    border-radius: 5px;
+  }
+  
