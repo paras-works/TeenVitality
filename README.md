@@ -1,4 +1,4 @@
-# TeenVitality — Cleaned & Fixed
+# TeenVitality 
 
 The site's look, pages, and front-end behavior are **unchanged** — only the
 backend (PHP/database) was cleaned up and fixed. All HTML/CSS/JS files were
